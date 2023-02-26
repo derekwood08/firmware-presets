@@ -791,13 +791,13 @@
     },
     {
       "fullPath": "presets/4.4/vtx/SpeedyBee VTX800.txt",
-      "hash": "121b5272ca97a0c359949487f3187b648317136350659c576834503ca5f898bc",
+      "hash": "73ae82f962768773ff3583538ffff7f9b68d5a309b516da6d452b413607590d3",
       "title": "Speedybee VTX800",
       "firmware_version": [
         "4.4"
       ],
       "category": "VTX",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "speedybee",
         "analog",

@@ -1,7 +1,7 @@
 #$ TITLE: Speedybee VTX800
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: VTX
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: speedybee, analog, vtx, vtxtable
 #$ AUTHOR: Derek Wood
 #$ DESCRIPTION: Speedybee VTX800 table and power levels
@@ -25,4 +25,16 @@ vtxtable powerlabels 25 200 400 600 800
 	set vtx_power = 3
 	set vtx_low_power_disarm = UNTIL_FIRST_ARM
 	set vtx_freq = 5917
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): TRIM ADJUSTMENTS
+	vtx 0 5 5 1 0 975 1050
+	vtx 1 5 5 3 0 1200 1350
+	vtx 2 5 5 5 0 1450 1600
+	vtx 3 5 5 7 0 1700 1900
+	vtx 4 4 5 0 1 975 1050
+	vtx 5 4 5 0 2 1200 1350
+	vtx 6 4 5 0 3 1450 1600
+	vtx 7 4 5 0 4 1700 1850
+	vtx 8 4 5 0 5 1950 2025
 #$ OPTION END
