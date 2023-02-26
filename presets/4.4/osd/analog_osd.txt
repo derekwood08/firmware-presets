@@ -7,13 +7,14 @@
 #$ DESCRIPTION: Sets OSD
 
 
-set osd_link_quality_pos = 2456
-set osd_tim_2_pos = 2432
-set osd_flymode_pos = 2432
+set report_cell_voltage = ON
+set osd_link_quality_pos = 2552
+set osd_tim_2_pos = 2080
+set osd_flymode_pos = 2496
 set osd_vtx_channel_pos = 2069
 set osd_ah_pos = 2126
 set osd_craft_name_pos = 2048
-set osd_warnings_pos = 14730
-set osd_disarmed_pos = 2432
+set osd_warnings_pos = 14794
+set osd_disarmed_pos = 2528
 set osd_canvas_width = 30
 set osd_canvas_height = 13
