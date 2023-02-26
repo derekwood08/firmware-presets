@@ -25,3 +25,4 @@ vtxtable powerlabels 25 200 400 600 800
 	set vtx_power = 3
 	set vtx_low_power_disarm = UNTIL_FIRST_ARM
 	set vtx_freq = 5917
+#$ OPTION END

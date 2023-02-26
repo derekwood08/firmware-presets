@@ -160,6 +160,7 @@
       "50Hz",
       "actual",
       "adjustments",
+      "analog",
       "aux",
       "basic",
       "blackbox",
@@ -170,6 +171,7 @@
       "default",
       "defaults",
       "derek",
+      "dwood",
       "ELRS",
       "expert",
       "express",
@@ -200,6 +202,7 @@
       "Rx",
       "smoothing",
       "some",
+      "speedybee",
       "stats",
       "switch",
       "tune",
@@ -677,6 +680,41 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/modes/dwood_modes.txt",
+      "hash": "3e6de6c8b8437fbfe737435b98cf3e44bbccf73ac28c276ba771975b631d1f05",
+      "title": "Dwood Modes",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "mode",
+        "modes",
+        "dwood",
+        "aux",
+        "switch"
+      ],
+      "author": "Derek Wood",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/analog_osd.txt",
+      "hash": "f771b6a589afa6e3eb21d9963754abb488b6faee4b29dff825f514c43327b5c2",
+      "title": "Dwood Analog OSD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "analog",
+        "OSD"
+      ],
+      "author": "Derek Wood",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/rates/Derek.txt",
       "hash": "159f06eb4c5dc578e9992eb265b32331ce3202655686e762f35ab1b9107ac7c5",
       "title": "Derek Starter rates",
@@ -750,6 +788,24 @@
       ],
       "author": "Betaflight",
       "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/SpeedyBee VTX800.txt",
+      "hash": "121b5272ca97a0c359949487f3187b648317136350659c576834503ca5f898bc",
+      "title": "Speedybee VTX800",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "speedybee",
+        "analog",
+        "vtx",
+        "vtxtable"
+      ],
+      "author": "Derek Wood",
+      "priority": 1000000
     }
   ]
 }
