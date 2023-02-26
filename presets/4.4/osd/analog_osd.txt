@@ -14,6 +14,7 @@ set osd_flymode_pos = 2496
 set osd_vtx_channel_pos = 2069
 set osd_ah_pos = 2126
 set osd_craft_name_pos = 2048
+set osd_altitude_pos = 18444
 set osd_warnings_pos = 14794
 set osd_disarmed_pos = 2528
 set osd_canvas_width = 30
