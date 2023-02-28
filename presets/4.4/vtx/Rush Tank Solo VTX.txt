@@ -19,12 +19,12 @@ vtxtable powerlevels 4
 vtxtable powervalues 25 400 800 1600
 vtxtable powerlabels 25 400 800 1600
 
-#$ OPTION BEGIN (CHECKED): Raceband 8
+#$ OPTION BEGIN (CHECKED): Raceband 1
 	set vtx_band = 5
-	set vtx_channel = 8
+	set vtx_channel = 1
 	set vtx_power = 1
 	set vtx_low_power_disarm = UNTIL_FIRST_ARM
-	set vtx_freq = 5917
+	set vtx_freq = 5658
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): TRIM ADJUSTMENTS
