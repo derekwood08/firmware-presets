@@ -1,0 +1,44 @@
+#$ TITLE: Bi Directional Dshot Filters
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: filter, filters, freesytle, dshot
+#$ AUTHOR: Derek Wood
+#$ DESCRIPTION: NOTE this needs bidirectional Dshot support and RPM filtering active to use. DO NOT ATEMPT TO USE WITH OUT RPM FILTERING!
+#$ DESCRIPTION: Follow the usual process of hover testing and safely checking out your tune before using. USE AT YOUR OWN RISK.
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+
+# -- Gyro lowpass filters --
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set simplified_gyro_filter = OFF
+
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+
+# -- RPM filtering --
+set dshot_bidir = ON
+set rpm_filter_harmonics = 2
+set rpm_filter_fade_range_hz = 100
+set rpm_filter_min_hz = 150
+
+# -- Other --
+set min_check = 1010
+set max_check = 1990
+set small_angle = 180
+set deadband = 2
+set pilot_name = dwood
+
+
+
+# OPTION BEGIN (UNCHECKED): Dshot300
+    set motor_pwm_protocol = DSHOT300
+# OPTION END
+
+# OPTION BEGIN (UNCHECKED): Dshot600
+    set motor_pwm_protocol = DSHOT600
+# OPTION END

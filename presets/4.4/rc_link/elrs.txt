@@ -11,11 +11,12 @@
 
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-#$ INCLUDE: presets/4.4/rc_link/defaults.txt
+#$ INCLUDE: presets/4.4/rc_link/reset_to_defaults.txt
 
 # basic requirements for ExpressLRS 
 feature RX_SERIAL
 set serialrx_provider = CRSF
+set serialrx_halfduplex = ON
 
 #$ OPTION_GROUP BEGIN: 150hz
     # 150hz default settings in case no tuning option is selected
