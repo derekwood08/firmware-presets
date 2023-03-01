@@ -31,9 +31,6 @@ set min_check = 1010
 set max_check = 1990
 set small_angle = 180
 set deadband = 2
-set pilot_name = dwood
-
-
 
 # OPTION BEGIN (UNCHECKED): Dshot300
     set motor_pwm_protocol = DSHOT300

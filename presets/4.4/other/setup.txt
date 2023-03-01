@@ -1,0 +1,17 @@
+#$ TITLE: Original Setup
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: features, beacon, name, pilot
+#$ AUTHOR: Derek Wood
+#$ DESCRIPTION: Basic setup
+
+# feature
+feature TELEMETRY
+feature -AIRMODE
+feature -ESC_SENSOR
+
+# beacon
+beacon RX_SET
+
+set pilot_name = dwood
