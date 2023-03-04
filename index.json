@@ -163,6 +163,7 @@
       "analog",
       "aux",
       "basic",
+      "beacon",
       "blackbox",
       "camera",
       "camera_control",
@@ -171,13 +172,16 @@
       "default",
       "defaults",
       "derek",
+      "dshot",
       "dwood",
       "ELRS",
       "expert",
       "express",
+      "features",
       "filter",
       "filters",
       "freestyle",
+      "freesytle",
       "GPS",
       "launch",
       "launch_mode",
@@ -187,10 +191,12 @@
       "logging",
       "mode",
       "modes",
+      "name",
       "names",
       "OSD",
       "partial",
       "pid",
+      "pilot",
       "profile",
       "rates",
       "RC",
@@ -199,6 +205,7 @@
       "rc_smoothing",
       "reset",
       "reset statistics",
+      "rush",
       "Rx",
       "smoothing",
       "some",
@@ -680,6 +687,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/filters/bidirdshot_filters.txt",
+      "hash": "3ed870828c7d29a69ada1445b9a5d3e87d410f8e4a775eff6e5e5e88a5dac849",
+      "title": "Bi Directional Dshot Filters",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "freesytle",
+        "dshot"
+      ],
+      "author": "Derek Wood",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.4/modes/dwood_modes.txt",
       "hash": "fbcd0fd2c4486f3670346913966c7792924b5a32d866fdf08c019bed57d4408c",
       "title": "Dwood Modes",
@@ -715,6 +740,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/other/setup.txt",
+      "hash": "d8d55673ebd46391f134cfe283547f481bd1ff3ddb6484fd0723df62f6e7566d",
+      "title": "Original Setup",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "features",
+        "beacon",
+        "name",
+        "pilot"
+      ],
+      "author": "Derek Wood",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/rates/Derek.txt",
       "hash": "159f06eb4c5dc578e9992eb265b32331ce3202655686e762f35ab1b9107ac7c5",
       "title": "Derek Starter rates",
@@ -730,6 +773,31 @@
       ],
       "author": "Derek Wood",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/elrs.txt",
+      "hash": "1385c25a173cd0183c79fceca165a82d1ee28d082fe53d15cf39418f167d1e00",
+      "title": "ExpressLRS",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ELRS",
+        "express",
+        "50Hz",
+        "150Hz",
+        "250Hz",
+        "500Hz",
+        "rc",
+        "rx",
+        "link",
+        "smoothing"
+      ],
+      "author": "Derek Wood",
+      "force_options_review": true,
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.4/rc_link/reset_to_defaults.txt",
@@ -790,8 +858,26 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/vtx/Rush Tank Solo VTX.txt",
+      "hash": "b049e2fcdaad43d942e84e09947d807f5ea7b8ce308876a51a7012f411af110d",
+      "title": "Rush Tank Solo",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rush",
+        "analog",
+        "vtx",
+        "vtxtable"
+      ],
+      "author": "Derek Wood",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/SpeedyBee VTX800.txt",
-      "hash": "73ae82f962768773ff3583538ffff7f9b68d5a309b516da6d452b413607590d3",
+      "hash": "7145f63355a3bc966a77140512fe42a003eebc174c739cbf73b870e87763188d",
       "title": "Speedybee VTX800",
       "firmware_version": [
         "4.4"
