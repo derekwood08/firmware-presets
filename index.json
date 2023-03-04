@@ -776,7 +776,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/elrs.txt",
-      "hash": "1385c25a173cd0183c79fceca165a82d1ee28d082fe53d15cf39418f167d1e00",
+      "hash": "9ec36541d6753b6495948e97d68b217dd2c83e1d1ffe8185146fc2f4fd58feec",
       "title": "ExpressLRS",
       "firmware_version": [
         "4.4"
