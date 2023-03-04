@@ -26,60 +26,60 @@ set serialrx_halfduplex = ON
 
     # sharper handling for racing (25 of auto RC smoothing = 80hz RC smoothing):
     #$ OPTION BEGIN (UNCHECKED): Racing
-    set feedforward_smooth_factor = 25
-    set feedforward_jitter_factor = 5
-    set rc_smoothing_auto_factor = 25
-    set rc_smoothing_auto_factor_throttle = 25
+        set feedforward_smooth_factor = 25
+        set feedforward_jitter_factor = 5
+        set rc_smoothing_auto_factor = 25
+        set rc_smoothing_auto_factor_throttle = 25
     #$ OPTION END
 
     # default is suitable for freestyle (30 of RC smoothing is approx 45hz RC smoothing)
     #$ OPTION BEGIN (UNCHECKED): Freestyle
-    set feedforward_jitter_factor = 9
+        set feedforward_jitter_factor = 9
     #$ OPTION END
 
     # stronger smoothing for HD freestyle (not for racing):
     #$ OPTION BEGIN (UNCHECKED): HD Freestyle
-    set feedforward_smooth_factor = 30
-    set feedforward_jitter_factor = 10
-    set rc_smoothing_auto_factor = 80
-    set rc_smoothing_setpoint_cutoff = 25
-    set rc_smoothing_feedforward_cutoff = 25
+        set feedforward_smooth_factor = 30
+        set feedforward_jitter_factor = 10
+        set rc_smoothing_auto_factor = 80
+        set rc_smoothing_setpoint_cutoff = 25
+        set rc_smoothing_feedforward_cutoff = 25
     #$ OPTION END
 
     # very smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Cinematic
-    set feedforward_smooth_factor = 35
-    set feedforward_jitter_factor = 12
-    set rc_smoothing_auto_factor = 175
-    set rc_smoothing_auto_factor_throttle = 100
-    set rc_smoothing_setpoint_cutoff = 12
-    set rc_smoothing_feedforward_cutoff = 12
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 35
+        set feedforward_jitter_factor = 12
+        set rc_smoothing_auto_factor = 175
+        set rc_smoothing_auto_factor_throttle = 100
+        set rc_smoothing_setpoint_cutoff = 12
+        set rc_smoothing_feedforward_cutoff = 12
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     # ultra smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Ultra Cinematic
-    set feedforward_smooth_factor = 40
-    set feedforward_jitter_factor = 16
-    set rc_smoothing_auto_factor = 250
-    set rc_smoothing_auto_factor_throttle = 100
-    set rc_smoothing_setpoint_cutoff = 6
-    set rc_smoothing_feedforward_cutoff = 6
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 40
+        set feedforward_jitter_factor = 16
+        set rc_smoothing_auto_factor = 250
+        set rc_smoothing_auto_factor_throttle = 100
+        set rc_smoothing_setpoint_cutoff = 6
+        set rc_smoothing_feedforward_cutoff = 6
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
     
     #Cinematic Rates (optional)
     #$ OPTION BEGIN (UNCHECKED): Actual, Centre = 2
-    set rates_type = ACTUAL
-    set roll_rc_rate = 2
-    set pitch_rc_rate = 2
-    set yaw_rc_rate = 2
-    set roll_expo = 0
-    set pitch_expo = 0
-    set yaw_expo = 0
-    set roll_srate = 50
-    set pitch_srate = 50
-    set yaw_srate = 50
+        set rates_type = ACTUAL
+        set roll_rc_rate = 2
+        set pitch_rc_rate = 2
+        set yaw_rc_rate = 2
+        set roll_expo = 0
+        set pitch_expo = 0
+        set yaw_expo = 0
+        set roll_srate = 50
+        set pitch_srate = 50
+        set yaw_srate = 50
     #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -93,56 +93,56 @@ set serialrx_halfduplex = ON
 
     # sharper handling for racing - note that 50Hz is too slow for racing
     #$ OPTION BEGIN (UNCHECKED): Racing (50Hz isn't any good for racing)
-    set feedforward_jitter_factor = 7
+        set feedforward_jitter_factor = 7
     #$ OPTION END
 
     # default is suitable for freestyle, though may transfer 50hz stepping to HD:
     #$ OPTION BEGIN (UNCHECKED): Freestyle
-    set feedforward_jitter_factor = 10
+        set feedforward_jitter_factor = 10
     #$ OPTION END
 
     # stronger smoothing for HD freestyle (not for racing):
     #$ OPTION BEGIN (UNCHECKED): HD Freestyle
-    set feedforward_jitter_factor = 15
-    set rc_smoothing_auto_factor = 20
-    set rc_smoothing_setpoint_cutoff = 25
-    set rc_smoothing_feedforward_cutoff = 25
+        set feedforward_jitter_factor = 15
+        set rc_smoothing_auto_factor = 20
+        set rc_smoothing_setpoint_cutoff = 25
+        set rc_smoothing_feedforward_cutoff = 25
     #$ OPTION END
 
     # very smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Cinematic
-    set feedforward_smooth_factor = 20
-    set feedforward_jitter_factor = 15
-    set rc_smoothing_auto_factor = 35   
-    set rc_smoothing_auto_factor_throttle = 28
-    set rc_smoothing_setpoint_cutoff = 12
-    set rc_smoothing_feedforward_cutoff = 12
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 20
+        set feedforward_jitter_factor = 15
+        set rc_smoothing_auto_factor = 35   
+        set rc_smoothing_auto_factor_throttle = 28
+        set rc_smoothing_setpoint_cutoff = 12
+        set rc_smoothing_feedforward_cutoff = 12
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     # ultra smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Ultra Cinematic
-    set feedforward_smooth_factor = 40
-    set feedforward_jitter_factor = 20
-    set rc_smoothing_auto_factor = 90
-    set rc_smoothing_auto_factor_throttle = 28
-    set rc_smoothing_setpoint_cutoff = 6
-    set rc_smoothing_feedforward_cutoff = 6
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 40
+        set feedforward_jitter_factor = 20
+        set rc_smoothing_auto_factor = 90
+        set rc_smoothing_auto_factor_throttle = 28
+        set rc_smoothing_setpoint_cutoff = 6
+        set rc_smoothing_feedforward_cutoff = 6
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     #Cinematic Rates (optional)
     #$ OPTION BEGIN (UNCHECKED): Actual, Centre = 2
-    set rates_type = ACTUAL
-    set roll_rc_rate = 2
-    set pitch_rc_rate = 2
-    set yaw_rc_rate = 2
-    set roll_expo = 0
-    set pitch_expo = 0
-    set yaw_expo = 0
-    set roll_srate = 50
-    set pitch_srate = 50
-    set yaw_srate = 50
+        set rates_type = ACTUAL
+        set roll_rc_rate = 2
+        set pitch_rc_rate = 2
+        set yaw_rc_rate = 2
+        set roll_expo = 0
+        set pitch_expo = 0
+        set yaw_expo = 0
+        set roll_srate = 50
+        set pitch_srate = 50
+        set yaw_srate = 50
     #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -155,62 +155,62 @@ set serialrx_halfduplex = ON
 
     # sharp handling for racing:
     #$ OPTION BEGIN (UNCHECKED): Racing (25 of auto RC smoothing = 140hz RC smoothing)
-    set feedforward_smooth_factor = 35
-    set feedforward_jitter_factor = 4
-    set feedforward_boost = 18
-    set rc_smoothing_auto_factor = 25
-    set rc_smoothing_auto_factor_throttle = 25
+        set feedforward_smooth_factor = 35
+        set feedforward_jitter_factor = 4
+        set feedforward_boost = 18
+        set rc_smoothing_auto_factor = 25
+        set rc_smoothing_auto_factor_throttle = 25
     #$ OPTION END
 
     # for freestyle auto smoothing of 52 is about 60hz:
     #$ OPTION BEGIN (UNCHECKED): Freestyle
-    set feedforward_jitter_factor = 8
-    set rc_smoothing_auto_factor = 52
+        set feedforward_jitter_factor = 8
+        set rc_smoothing_auto_factor = 52
     #$ OPTION END
 
     # stronger smoothing for HD freestyle (not for racing):
     #$ OPTION BEGIN (UNCHECKED): HD Freestyle
-    set feedforward_smooth_factor = 45
-    set feedforward_jitter_factor = 10
-    set rc_smoothing_auto_factor = 140
-    set rc_smoothing_setpoint_cutoff = 25
-    set rc_smoothing_feedforward_cutoff = 25
+        set feedforward_smooth_factor = 45
+        set feedforward_jitter_factor = 10
+        set rc_smoothing_auto_factor = 140
+        set rc_smoothing_setpoint_cutoff = 25
+        set rc_smoothing_feedforward_cutoff = 25
     #$ OPTION END
 
     # very smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Cinematic
-    set feedforward_smooth_factor = 60
-    set feedforward_jitter_factor = 12
-    set rc_smoothing_auto_factor = 250  
-    set rc_smoothing_auto_factor_throttle = 170
-    set rc_smoothing_setpoint_cutoff = 12
-    set rc_smoothing_feedforward_cutoff = 12
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 60
+        set feedforward_jitter_factor = 12
+        set rc_smoothing_auto_factor = 250  
+        set rc_smoothing_auto_factor_throttle = 170
+        set rc_smoothing_setpoint_cutoff = 12
+        set rc_smoothing_feedforward_cutoff = 12
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     # ultra smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Ultra Cinematic
-    set feedforward_smooth_factor = 65
-    set feedforward_jitter_factor = 15
-    set rc_smoothing_auto_factor = 250
-    set rc_smoothing_auto_factor_throttle = 170
-    set rc_smoothing_setpoint_cutoff = 6
-    set rc_smoothing_feedforward_cutoff = 6
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 65
+        set feedforward_jitter_factor = 15
+        set rc_smoothing_auto_factor = 250
+        set rc_smoothing_auto_factor_throttle = 170
+        set rc_smoothing_setpoint_cutoff = 6
+        set rc_smoothing_feedforward_cutoff = 6
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     #Cinematic Rates (optional)
     #$ OPTION BEGIN (UNCHECKED): Actual, Centre = 2
-    set rates_type = ACTUAL
-    set roll_rc_rate = 2
-    set pitch_rc_rate = 2
-    set yaw_rc_rate = 2
-    set roll_expo = 0
-    set pitch_expo = 0
-    set yaw_expo = 0
-    set roll_srate = 50
-    set pitch_srate = 50
-    set yaw_srate = 50
+        set rates_type = ACTUAL
+        set roll_rc_rate = 2
+        set pitch_rc_rate = 2
+        set yaw_rc_rate = 2
+        set roll_expo = 0
+        set pitch_expo = 0
+        set yaw_expo = 0
+        set roll_srate = 50
+        set pitch_srate = 50
+        set yaw_srate = 50
     #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -223,62 +223,62 @@ set serialrx_halfduplex = ON
 
     # sharp handling for racing (25 of auto RC smoothing = 290hz RC smoothing):
     #$ OPTION BEGIN (UNCHECKED): Race feedforward settings
-    set feedforward_smooth_factor = 65
-    set feedforward_jitter_factor = 3
-    set feedforward_boost = 18
-    set rc_smoothing_auto_factor = 25
-    set rc_smoothing_auto_factor_throttle = 25
+        set feedforward_smooth_factor = 65
+        set feedforward_jitter_factor = 3
+        set feedforward_boost = 18
+        set rc_smoothing_auto_factor = 25
+        set rc_smoothing_auto_factor_throttle = 25
     #$ OPTION END
 
     # at 500hz auto smoothing of 120 is close to 60hz:
     #$ OPTION BEGIN (UNCHECKED): Freestyle
-    set feedforward_jitter_factor = 7
-    set rc_smoothing_auto_factor = 120
+        set feedforward_jitter_factor = 7
+        set rc_smoothing_auto_factor = 120
     #$ OPTION END
 
     # stronger smoothing for HD freestyle (not for racing):
     #$ OPTION BEGIN (UNCHECKED): HD Freestyle
-    set feedforward_smooth_factor = 65
-    set feedforward_jitter_factor = 9
-    set rc_smoothing_auto_factor = 250
-    set rc_smoothing_setpoint_cutoff = 25
-    set rc_smoothing_feedforward_cutoff = 25
+        set feedforward_smooth_factor = 65
+        set feedforward_jitter_factor = 9
+        set rc_smoothing_auto_factor = 250
+        set rc_smoothing_setpoint_cutoff = 25
+        set rc_smoothing_feedforward_cutoff = 25
     #$ OPTION END
 
     # smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Cinematic
-    set feedforward_smooth_factor = 70
-    set feedforward_jitter_factor = 11
-    set rc_smoothing_auto_factor = 250
-    set rc_smoothing_auto_factor_throttle = 250
-    set rc_smoothing_setpoint_cutoff = 12
-    set rc_smoothing_feedforward_cutoff = 12
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 70
+        set feedforward_jitter_factor = 11
+        set rc_smoothing_auto_factor = 250
+        set rc_smoothing_auto_factor_throttle = 250
+        set rc_smoothing_setpoint_cutoff = 12
+        set rc_smoothing_feedforward_cutoff = 12
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     # ultra smooth Cinematic (not for racing):
     #$ OPTION BEGIN (UNCHECKED): Ultra Cinematic
-    set feedforward_smooth_factor = 75
-    set feedforward_jitter_factor = 13
-    set rc_smoothing_auto_factor = 250
-    set rc_smoothing_auto_factor_throttle = 250
-    set rc_smoothing_setpoint_cutoff = 6
-    set rc_smoothing_feedforward_cutoff = 6
-    set rc_smoothing_throttle_cutoff = 20
+        set feedforward_smooth_factor = 75
+        set feedforward_jitter_factor = 13
+        set rc_smoothing_auto_factor = 250
+        set rc_smoothing_auto_factor_throttle = 250
+        set rc_smoothing_setpoint_cutoff = 6
+        set rc_smoothing_feedforward_cutoff = 6
+        set rc_smoothing_throttle_cutoff = 20
     #$ OPTION END
 
     #Cinematic Rates (optional)
     #$ OPTION BEGIN (UNCHECKED): Actual, Centre = 2
-    set rates_type = ACTUAL
-    set roll_rc_rate = 2
-    set pitch_rc_rate = 2
-    set yaw_rc_rate = 2
-    set roll_expo = 0
-    set pitch_expo = 0
-    set yaw_expo = 0
-    set roll_srate = 50
-    set pitch_srate = 50
-    set yaw_srate = 50
+        set rates_type = ACTUAL
+        set roll_rc_rate = 2
+        set pitch_rc_rate = 2
+        set yaw_rc_rate = 2
+        set roll_expo = 0
+        set pitch_expo = 0
+        set yaw_expo = 0
+        set roll_srate = 50
+        set pitch_srate = 50
+        set yaw_srate = 50
     #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -289,9 +289,9 @@ set serialrx_halfduplex = ON
     #$ OPTION END
 
     #$ OPTION BEGIN (UNCHECKED): SPI, on the FC
-    feature -RX_SERIAL
-    feature RX_SPI
-    set rx_spi_protocol = EXPRESSLRS
+        feature -RX_SERIAL
+        feature RX_SPI
+        set rx_spi_protocol = EXPRESSLRS
     #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -301,11 +301,11 @@ set serialrx_halfduplex = ON
 
     # per cell or whole pack voltage readings:
     #$ OPTION BEGIN (UNCHECKED): Single Cell values
-    set report_cell_voltage = ON
+        set report_cell_voltage = ON
     #$ OPTION END
 
     #$ OPTION BEGIN (UNCHECKED): Whole pack values
-    set report_cell_voltage = OFF
+        set report_cell_voltage = OFF
     #$ OPTION END
 
 #$ OPTION_GROUP END
